@@ -13,7 +13,7 @@
 }
 
 .logo-nav {
-  background-color: var(--navbar-color-hover);
+  background-color: var(--color-hover);
   position: relative;
   width: 316px;
   display: flex;
