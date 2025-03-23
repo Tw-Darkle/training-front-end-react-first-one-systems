@@ -1,9 +1,12 @@
 import "./contact.css";
+import { BsPhoneVibrate } from "react-icons/bs";
+import { CiMail } from "react-icons/ci";
+import { FaSquareFacebook } from "react-icons/fa6";
+import { FaMapLocationDot } from "react-icons/fa6";
 
 const Contact = () => {
   return (
     <div className="contact-content">
-      <div className="header-content">
         <div className="header">
           <div className="boxs"></div>
           <div className="text-p">
@@ -18,15 +21,63 @@ const Contact = () => {
           />
         </div>
         <div className="body-content">
-          <img src="https://www.firstone.co.th/public/assets/app/img/content/05.jpg" alt="body-image" />
+          <img
+            src="https://www.firstone.co.th/public/assets/app/img/content/05.jpg"
+            alt="body-image"
+          />
           <div className="text-body">
-            <p className="content-body-headder">FIRST ONE SYSTEMS <span>COMPANY LIMITED</span></p>
-            <p>719 KPN Tower 11th floor ,Rama 9 Road, Bangkapi, Huay-Kwang,
-            Bangkok 10310 Thailand</p>
+            <p className="content-body-headder">
+              FIRST ONE SYSTEMS <span>COMPANY LIMITED</span>
+            </p>
+            <p className="text-addr">
+              719 KPN Tower 11th floor ,Rama 9 Road, Bangkapi, Huay-Kwang,
+              Bangkok 10310 Thailand
+            </p>
+            <div className="contact-content">
+              <div className="show-content">
+                <div className="icons">
+                  <BsPhoneVibrate />
+                </div>
+                <div className="text-contact">
+                  <h3 className="text">CALL US</h3>
+                  <p>02-717-1060, 02-717-1061</p>
+                </div>
+              </div>
+              <div className="show-content">
+                <div className="icons">
+                  <CiMail />
+                </div>
+                <div className="text-contact">
+                  <h3 className="text">MAKE A QUOTE</h3>
+                  <p>mkt@firstone.co.th</p>
+                </div>
+              </div>
+              <div className="show-content">
+                <div className="icons">
+                  <FaSquareFacebook />
+                </div>
+                <div className="text-contact">
+                  <h3 className="text">FOLLOW US</h3>
+                  <p>First One Systems Co.,Ltd.</p>
+                </div>
+              </div>
+            </div>
           </div>
-          
         </div>
-      </div>
+        <div className="map-content">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7750.818470105343!2d100.58487036423196!3d13.754177304772314!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30e29e5d72156099%3A0xbe95e9dd6d7af187!2sFirst%20One%20Systems%20Co.%2C%20Ltd.!5e0!3m2!1sth!2sth!4v1742722772256!5m2!1sth!2sth"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            alt="map"
+          ></iframe>
+          <div className="text-map">
+            <div className="icon-map">
+              <FaMapLocationDot />
+              <h4>Map</h4>
+            </div>
+          </div>
+        </div>
     </div>
   );
 };

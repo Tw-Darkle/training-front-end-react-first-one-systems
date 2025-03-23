@@ -1,3 +1,5 @@
+
+
 .boxs {
   position: absolute;
   background: var(--color-hover);
@@ -70,9 +72,78 @@
   color: var(--color-hover);
   font-size: 1.3rem;
   padding-top: 1.6rem;
-  padding-bottom: .5rem;
+  padding-bottom: 0.5rem;
 }
 
 .text-body span {
   color: #000;
+}
+
+.text-addr {
+  font-weight: none co;
+}
+
+.contact-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.show-content {
+  display: flex;
+  flex-direction: row;
+  margin-top: 1.5rem;
+}
+
+.icons svg {
+  width: 48px;
+  height: 48px;
+  color: var(--color-hover);
+}
+
+.text-contact {
+  display: flex;
+  flex-direction: column;
+  margin-left: 2rem;
+}
+.text-contact .text {
+  color: var(--color-hover);
+}
+
+.map-content {
+  position: relative;
+  margin-top: 5rem;
+}
+
+.map-content  iframe{
+  position: absolute;
+  z-index: 0;
+  border: none;
+  width: 80%;
+  height: 450px;
+}
+
+.text-map {
+  position: absolute;
+  z-index: 2;
+  left: 75%;
+  background-color: #fff;
+  transform: skew(-0.04turn);
+}
+.icon-map {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 330px;
+  height: 450px;
+  position: relative;
+  transform: skew(0.04turn);
+}
+.icon-map svg{
+  width: 60px;
+  height: 60px;
+  color: #56575b;
+}
+.icon-map h4{
+  color: var(--color-hover);
 }
