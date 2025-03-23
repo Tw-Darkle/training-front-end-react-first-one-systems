@@ -1,4 +1,7 @@
-
+.contact-content {
+  display: flex;
+  flex-direction: column;
+}
 
 .boxs {
   position: absolute;
@@ -80,7 +83,7 @@
 }
 
 .text-addr {
-  font-weight: none co;
+  font-weight: none ;
 }
 
 .contact-content {
@@ -112,6 +115,8 @@
 .map-content {
   position: relative;
   margin-top: 5rem;
+  width: 100%;
+  height: 450px;
 }
 
 .map-content  iframe{
@@ -147,3 +152,58 @@
 .icon-map h4{
   color: var(--color-hover);
 }
+
+.footer-contact {
+  position: relative;
+}
+
+.footer-contact img {
+  position: absolute;
+  z-index: 0;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+
+}
+
+.footer-text {
+  display: flex;
+  flex-direction: column;
+  width: 733px;
+  height: 150px;
+}
+
+.footer-text  h3{
+  color: var(--color-hover);
+  letter-spacing: 3px;
+  padding-bottom: 1rem;
+}
+.footer-text  span{
+  color: #000; 
+}
+
+.text-footer {
+  width: 450px;
+  
+}
+
+.footer-links {
+  display: flex;
+  flex-direction: row;
+  width: 733px;
+  height: 150px;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  width: 347px;
+}
+
