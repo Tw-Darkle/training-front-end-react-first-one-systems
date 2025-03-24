@@ -83,7 +83,7 @@
 }
 
 .text-addr {
-  font-weight: none ;
+  font-weight: none;
 }
 
 .contact-content {
@@ -119,7 +119,7 @@
   height: 450px;
 }
 
-.map-content  iframe{
+.map-content iframe {
   position: absolute;
   z-index: 0;
   border: none;
@@ -144,12 +144,12 @@
   position: relative;
   transform: skew(0.04turn);
 }
-.icon-map svg{
+.icon-map svg {
   width: 60px;
   height: 60px;
   color: #56575b;
 }
-.icon-map h4{
+.icon-map h4 {
   color: var(--color-hover);
 }
 
@@ -159,6 +159,7 @@
 
 .footer-contact img {
   position: absolute;
+  width: 100%;
   z-index: 0;
 }
 
@@ -170,7 +171,6 @@
   position: absolute;
   width: 100%;
   z-index: 1;
-
 }
 
 .footer-text {
@@ -180,18 +180,24 @@
   height: 150px;
 }
 
-.footer-text  h3{
+.footer-text h3 {
   color: var(--color-hover);
   letter-spacing: 3px;
   padding-bottom: 1rem;
 }
-.footer-text  span{
-  color: #000; 
+.footer-text span {
+  color: #000;
 }
 
 .text-footer {
   width: 450px;
-  
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.tel-mails span {
+  color: var(--color-hover);
+  font-size: 0.9rem;
 }
 
 .footer-links {
@@ -201,9 +207,56 @@
   height: 150px;
 }
 
+.contact-follow {
+  display: flex;
+  flex-direction: row;
+  width: 270px;
+  height: 44px;
+  margin-top: 2rem;
+}
+
+.text-follow {
+  font-size: 1rem;
+  width: 170px;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.link-facebook {
+  background-color: var(--color-hover);
+  color: #fff;
+  width: 200px;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  transform: skew(-0.04turn);
+}
+
+.link-content  {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  transform: skew(0.04turn); 
+}
+
+.link-content a{
+  padding-left: 3px;
+  color: #fff;
+  font-size: 1rem;
+}
+
 .links {
   display: flex;
   flex-direction: column;
-  width: 347px;
+  margin-left: 2rem;
 }
-
+.links a {
+  margin-bottom: 1rem;
+  color: var(--color-hover);
+  letter-spacing: 3px;
+  font-weight: bold;
+}

@@ -3,6 +3,7 @@ import { BsPhoneVibrate } from "react-icons/bs";
 import { CiMail } from "react-icons/ci";
 import { FaSquareFacebook } from "react-icons/fa6";
 import { FaMapLocationDot } from "react-icons/fa6";
+import { TfiFacebook } from "react-icons/tfi";
 
 const Contact = () => {
   return (
@@ -91,35 +92,35 @@ const Contact = () => {
               719 KPN TOWER 11TH FLOOR, RAMA 9 ROAD, BANGKAPI, HUAY-KWANG,
               BANGKOK 10310 THAILAND
             </p>
+            <h5 className="tel-mails">
+              TEL. <span> 02-717-1060, 02-717-1061 </span> EMAIL :{" "}
+              <span> MKT@FIRSTONE.CO.TH</span>
+            </h5>
+            <div className="contact-follow">
+              <div className="text-follow"> FOLLOW US</div>
+              <div className="link-facebook">
+                <div className="link-content">
+                  <TfiFacebook />
+                  <a href="https://www.facebook.com/Firstonesystems/">
+                    {" "}
+                    Facebook
+                  </a>
+                </div>
+              </div>
+            </div>
           </div>
           <div className="footer-links">
             <div className="links">
-              <a href="/">
-                <h4>Home</h4>
-              </a>
-              <a href="/">
-                <h4>Home</h4>
-              </a>
-              <a href="/">
-                <h4>Home</h4>
-              </a>
-              <a href="/">
-                <h4>Home</h4>
-              </a>
+              <a href="/">HOME</a>
+              <a href="/About">ABOUT US</a>
+              <a href="/SOLUTION & SERVICES">SOLUTION & SERVICES</a>
+              <a href="/Partner">PRATNERS</a>
             </div>
             <div className="links">
-              <a href="/">
-                <h4>Home</h4>
-              </a>
-              <a href="/">
-                <h4>Home</h4>
-              </a>
-              <a href="/">
-                <h4>Home</h4>
-              </a>
-              <a href="/">
-                <h4>Home</h4>
-              </a>
+              <a href="Client">CLIENTS</a>
+              <a href="/Career">CAREER</a>
+              <a href="/Contact">CONTACT US</a>
+              <a href="/PrivacyPolicy">PRIVACY POLICY</a>
             </div>
           </div>
         </div>
